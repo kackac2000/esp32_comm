@@ -1,0 +1,22 @@
+running egg_info
+writing build/esp32_comm/esp32_comm.egg-info/PKG-INFO
+writing dependency_links to build/esp32_comm/esp32_comm.egg-info/dependency_links.txt
+writing entry points to build/esp32_comm/esp32_comm.egg-info/entry_points.txt
+writing requirements to build/esp32_comm/esp32_comm.egg-info/requires.txt
+writing top-level names to build/esp32_comm/esp32_comm.egg-info/top_level.txt
+reading manifest file 'build/esp32_comm/esp32_comm.egg-info/SOURCES.txt'
+writing manifest file 'build/esp32_comm/esp32_comm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying esp32_comm/esp_ros_node.py -> /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build/lib/esp32_comm
+running install
+running install_lib
+copying /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build/lib/esp32_comm/esp_ros_node.py -> /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm
+byte-compiling /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm/esp_ros_node.py to esp_ros_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm-0.0.0-py3.12.egg-info' (and everything under it)
+Copying build/esp32_comm/esp32_comm.egg-info to /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm-0.0.0-py3.12.egg-info
+running install_scripts
+Installing esp_ros_node script to /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/esp32_comm
+writing list of installed files to '/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/install.log'

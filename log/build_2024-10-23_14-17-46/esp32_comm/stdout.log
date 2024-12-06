@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing esp32_comm.egg-info/PKG-INFO
+writing dependency_links to esp32_comm.egg-info/dependency_links.txt
+writing entry points to esp32_comm.egg-info/entry_points.txt
+writing requirements to esp32_comm.egg-info/requires.txt
+writing top-level names to esp32_comm.egg-info/top_level.txt
+reading manifest file 'esp32_comm.egg-info/SOURCES.txt'
+writing manifest file 'esp32_comm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32-comm.egg-link (link to .)
+Installing esp_ros_node script to /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/esp32_comm
+
+Installed /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm
+running symlink_data
+symbolically linking /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/resource/esp32_comm -> /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/share/ament_index/resource_index/packages
+symbolically linking /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/package.xml -> /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/share/esp32_comm

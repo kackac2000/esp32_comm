@@ -1,0 +1,2 @@
+[console_scripts]
+esp_ros_node = esp32_comm.esp_ros_node:main

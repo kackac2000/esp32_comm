@@ -1,0 +1,44 @@
+[0.991s] Invoking command in '/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build
+[1.364s] running develop
+[1.365s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.365s] !!
+[1.365s] 
+[1.365s]         ********************************************************************************
+[1.365s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.365s]         Instead, use pypa/build, pypa/installer or other
+[1.365s]         standards-based tools.
+[1.365s] 
+[1.365s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.365s]         ********************************************************************************
+[1.365s] 
+[1.365s] !!
+[1.365s]   easy_install.initialize_options(self)
+[1.656s] Removing /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32-comm.egg-link (link to .)
+[1.679s] Invoked command in '/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build
+[1.680s] Invoking command in '/home/kmagier/ros2_ws/src/esp32_comm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/esp32_comm build --build-base /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build install --record /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/install.log --single-version-externally-managed install_data --force
+[2.012s] running egg_info
+[2.040s] writing build/esp32_comm/esp32_comm.egg-info/PKG-INFO
+[2.041s] writing dependency_links to build/esp32_comm/esp32_comm.egg-info/dependency_links.txt
+[2.041s] writing entry points to build/esp32_comm/esp32_comm.egg-info/entry_points.txt
+[2.041s] writing requirements to build/esp32_comm/esp32_comm.egg-info/requires.txt
+[2.041s] writing top-level names to build/esp32_comm/esp32_comm.egg-info/top_level.txt
+[2.098s] reading manifest file 'build/esp32_comm/esp32_comm.egg-info/SOURCES.txt'
+[2.098s] writing manifest file 'build/esp32_comm/esp32_comm.egg-info/SOURCES.txt'
+[2.098s] running build
+[2.098s] running build_py
+[2.099s] running install
+[2.104s] running install_lib
+[2.133s] creating /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm
+[2.133s] copying /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build/lib/esp32_comm/esp_ros_node.py -> /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm
+[2.134s] copying /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build/lib/esp32_comm/__init__.py -> /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm
+[2.134s] byte-compiling /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm/esp_ros_node.py to esp_ros_node.cpython-312.pyc
+[2.134s] byte-compiling /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm/__init__.py to __init__.cpython-312.pyc
+[2.135s] running install_data
+[2.135s] copying resource/esp32_comm -> /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/share/ament_index/resource_index/packages
+[2.135s] copying package.xml -> /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/share/esp32_comm
+[2.135s] running install_egg_info
+[2.164s] Copying build/esp32_comm/esp32_comm.egg-info to /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages/esp32_comm-0.0.0-py3.12.egg-info
+[2.164s] running install_scripts
+[2.346s] Installing esp_ros_node script to /home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/esp32_comm
+[2.347s] writing list of installed files to '/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/install.log'
+[2.367s] Invoked command in '/home/kmagier/ros2_ws/src/esp32_comm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kmagier/ros2_ws/src/esp32_comm/install/esp32_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/esp32_comm build --build-base /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/build install --record /home/kmagier/ros2_ws/src/esp32_comm/build/esp32_comm/install.log --single-version-externally-managed install_data --force
